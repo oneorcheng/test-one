@@ -1,0 +1,11 @@
+{
+  "item.conveyorconnector.conveyor_connector": "Conveyor Connector",
+  "block.conveyorconnector.conveyor_connector": "Conveyor Connector",
+  "conveyorconnector.tooltip.connector": "Connect horizontal and diagonal conveyors",
+  "conveyorconnector.tooltip.horizontal": "Horizontal Connection: %s",
+  "conveyorconnector.tooltip.diagonal": "Diagonal Connection: %s",
+  "conveyorconnector.tooltip.connected": "Connected",
+  "conveyorconnector.tooltip.not_connected": "Not Connected",
+  "conveyorconnector.tooltip.right_click": "Right-click to rotate",
+  "conveyorconnector.tooltip.max_length": "Max Length: 20 blocks horizontal, 15 blocks diagonal"
+}

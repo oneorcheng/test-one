@@ -1,0 +1,11 @@
+{
+  "item.conveyorconnector.conveyor_connector": "传送带连接器",
+  "block.conveyorconnector.conveyor_connector": "传送带连接器",
+  "conveyorconnector.tooltip.connector": "连接水平和斜45度传送带",
+  "conveyorconnector.tooltip.horizontal": "水平连接: %s",
+  "conveyorconnector.tooltip.diagonal": "斜45度连接: %s",
+  "conveyorconnector.tooltip.connected": "已连接",
+  "conveyorconnector.tooltip.not_connected": "未连接",
+  "conveyorconnector.tooltip.right_click": "右键点击旋转方向",
+  "conveyorconnector.tooltip.max_length": "最大长度: 水平20格，斜45度15格"
+}

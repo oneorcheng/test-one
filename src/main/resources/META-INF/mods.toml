@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="conveyorconnector"
+version="1.0.0"
+displayName="Conveyor Connector"
+description='''
+修改机械动力模组传送带，支持水平和斜45度传送带连接。
+主要功能：
+- 水平传送带和斜45度传送带可以连接
+- 共享传动杆，减少传动杆使用数量
+- 支持物品传输和动力传递
+- 水平传送带最大长度20格
+- 斜45度传送带最大长度15格
+'''
+
+[[dependencies.conveyorconnector]]
+modId="forge"
+mandatory=true
+versionRange="[47.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.conveyorconnector]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.conveyorconnector]]
+modId="create"
+mandatory=true
+versionRange="[0.5.1.f,)"
+ordering="NONE"
+side="BOTH"
