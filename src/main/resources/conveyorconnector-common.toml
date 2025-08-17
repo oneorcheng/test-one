@@ -1,0 +1,33 @@
+# 传送带连接器模组配置文件
+
+[general]
+# 是否启用调试模式
+debug = false
+# 是否启用详细日志
+verbose_logging = false
+
+[conveyor]
+# 水平传送带最大长度（包含两端传动杆）
+max_horizontal_length = 20
+# 斜45度传送带最大长度（包含两端传动杆）
+max_diagonal_length = 15
+# 连接器检测范围
+detection_range = 25
+# 是否启用自动连接
+auto_connect = true
+
+[performance]
+# 连接检测间隔（tick）
+connection_check_interval = 20
+# 最大同时处理的连接器数量
+max_concurrent_connectors = 100
+# 是否启用连接缓存
+enable_connection_cache = true
+
+[compatibility]
+# 是否启用与机械动力的兼容性检查
+enable_create_compatibility = true
+# 是否启用与其他模组的兼容性检查
+enable_mod_compatibility = true
+# 兼容性检查间隔（tick）
+compatibility_check_interval = 100

@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,slope=horizontal,connected_horizontal=false,connected_diagonal=false": {
+      "model": "conveyorconnector:block/conveyor_connector_horizontal"
+    },
+    "facing=south,slope=horizontal,connected_horizontal=false,connected_diagonal=false": {
+      "model": "conveyorconnector:block/conveyor_connector_horizontal",
+      "y": 180
+    },
+    "facing=east,slope=horizontal,connected_horizontal=false,connected_diagonal=false": {
+      "model": "conveyorconnector:block/conveyor_connector_horizontal",
+      "y": 90
+    },
+    "facing=west,slope=horizontal,connected_horizontal=false,connected_diagonal=false": {
+      "model": "conveyorconnector:block/conveyor_connector_horizontal",
+      "y": 270
+    },
+    "facing=north,slope=upward,connected_horizontal=false,connected_diagonal=false": {
+      "model": "conveyorconnector:block/conveyor_connector_diagonal"
+    },
+    "facing=south,slope=upward,connected_horizontal=false,connected_diagonal=false": {
+      "model": "conveyorconnector:block/conveyor_connector_diagonal",
+      "y": 180
+    },
+    "facing=east,slope=upward,connected_horizontal=false,connected_diagonal=false": {
+      "model": "conveyorconnector:block/conveyor_connector_diagonal",
+      "y": 90
+    },
+    "facing=west,slope=upward,connected_horizontal=false,connected_diagonal=false": {
+      "model": "conveyorconnector:block/conveyor_connector_diagonal",
+      "y": 270
+    }
+  }
+}

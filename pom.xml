@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>conveyor-connector</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>Conveyor Connector Mod</name>
+    <description>修改机械动力模组传送带，支持水平和斜45度传送带连接</description>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <minecraft.version>1.20.1</minecraft.version>
+        <forge.version>47.1.0</forge.version>
+        <mappings.version>20230612.114407</mappings.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>forge</id>
+            <url>https://maven.minecraftforge.net/</url>
+        </repository>
+        <repository>
+            <id>curseforge</id>
+            <url>https://cursemaven.com</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.minecraftforge</groupId>
+            <artifactId>forge</artifactId>
+            <version>${minecraft.version}-${forge.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <!-- 机械动力模组依赖 -->
+        <dependency>
+            <groupId>com.simibubi.create</groupId>
+            <artifactId>create</artifactId>
+            <version>0.5.1.f</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
